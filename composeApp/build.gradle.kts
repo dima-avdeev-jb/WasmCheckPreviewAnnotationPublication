@@ -54,7 +54,7 @@ kotlin {
             implementation(compose.material)
             implementation(compose.ui)
             @OptIn(ExperimentalComposeLibrary::class)
-            implementation(compose.components.resources)
+            implementation(compose.components.uiToolingPreview)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
